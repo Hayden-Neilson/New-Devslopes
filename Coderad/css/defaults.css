@@ -1,3 +1,6 @@
 :root{
-    
+    --white: #FFF;
+    --black: #000;
+    --font-color-base: #666;
+    --font-color-dark: #212259;
 }
