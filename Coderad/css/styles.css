@@ -26,3 +26,12 @@
     width: 100%;
     transition: ease-in-out 0.3s;
 }
+
+.bg-header{
+    background-image: url();
+    background-color: var(--footer);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 20%;
+    position: relative;
+}
