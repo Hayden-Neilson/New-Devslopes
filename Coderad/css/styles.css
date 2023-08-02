@@ -28,10 +28,15 @@
 }
 
 .bg-header{
-    background-image: url();
+    background-image: url(../CodeRad-assets/bg-header-1.jpg);
     background-color: var(--footer);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 20%;
     position: relative;
+    z-index: 1;
+}
+
+.bg-header ::before{
+    background-image: linear-gradient();
 }
