@@ -1,5 +1,4 @@
 .navbar {
-
     position: fixed;
     top: 0;
     right: 0;
@@ -28,6 +27,17 @@
     color: var(--white);
 }
 
+.nav-link {
+    color: var(--white);
+    font-size: 0.8125rem;
+    font-family: "Hind", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 2.5rem;
+    line-height: 1.25rem;
+    color: var(--white);
+}
+
 .bg-header{
     background-image: url(../CodeRad-assets/bg-header-1.jpg);
     background-color: var(--footer);
@@ -36,11 +46,12 @@
     background-position: 50% 20%;
     position: relative;
     z-index: 1;
-    padding: 4.6875rem, 0
+    padding: 4.6875rem, 0;
 }
 
 .bg-header ::before{
-    background-image: linear-gradient(30deg,
+    background-image: linear-gradient(
+    30deg,
     rgba( 21, 27, 38, 0.8) 0%,
     rgba( 0, 0, 0, 0.2) 100%
     );
@@ -55,12 +66,3 @@
     content: "";
 }
 
-.nav-link {
-    color: var(--white);
-    font-size: 0.8125rem;
-    font-family: "Hindi", sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-right: 2.5rem;
-    line-height: 1.25rem;
-}
