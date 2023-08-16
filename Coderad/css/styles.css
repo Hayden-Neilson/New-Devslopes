@@ -27,7 +27,7 @@
     color: var(--white);
 }
 
-.nav-link {
+.nav-link a {
     color: var(--white);
     font-size: 0.8125rem;
     font-family: "Hind", sans-serif;
@@ -46,7 +46,9 @@
     background-position: 50% 20%;
     position: relative;
     z-index: 1;
-    padding: 4.6875rem, 0;
+    padding-top: 4.6875rem;
+    padding-bottom: 4.6875rem;
+    
 }
 
 .bg-header::before {
@@ -65,4 +67,6 @@
     z-index: -1;
     content: "";
 }
+
+
 
