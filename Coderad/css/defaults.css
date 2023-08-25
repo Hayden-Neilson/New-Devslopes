@@ -68,3 +68,14 @@ img {
         max-width: 1140px;
     }
 }
+
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    color: var(--font-color-dark);
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    /* border: ; */
+}

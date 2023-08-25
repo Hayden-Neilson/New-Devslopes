@@ -68,5 +68,9 @@
     content: "";
 }
 
+.hero-header{
+    color: var(--white);
+}
+
 
 
