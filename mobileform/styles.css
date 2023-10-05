@@ -42,3 +42,50 @@ nav ul {
     align-items: center;
     padding: 10px
 }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a img {
+            max-width: 100%;
+            height: auto;
+        }
+        .form-group-1,
+        .form-group-2,
+        .form-group-3,
+        .form-group-4,
+        .form-group-5,
+        .form-group-6,
+        .form-group-7,
+        button {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+        @media (min-width: 768px) {
+            /* Add styles for larger screens here */
+            .form-group-1,
+            .form-group-2,
+            .form-group-3,
+            .form-group-4,
+            .form-group-5,
+            .form-group-6,
+            .form-group-7,
+            button {
+                width: 50%;
+                margin-bottom: 15px;
+            }
+        }
