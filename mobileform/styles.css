@@ -1,47 +1,15 @@
 nav ul {
     display: flex;
-    align-items:end;
+    align-items:flex-end;
 }
 
-.form-group-1 {
+.form-group {
     display: flex;
     align-items: center;
     padding: 10px
-}
-.form-group-2 {
-    display: flex;
-    align-items: center;
-    padding: 10px
-}
-.form-group-3 {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    width: 100%;
-}
-.form-group-4 {
-    display: flex;
-    align-items: center;
-    padding: 10px
-}
-.form-group-5 {
-    display: flex;
-    align-items: center;
-    padding: 10px;
 }
 #phone {
     padding-right: 5px;
-}
-.form-group-6 {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    padding-left: 10px;
-}
-.form-group-7 {
-    display: flex;
-    align-items: center;
-    padding: 10px
 }
 
 body {
@@ -68,7 +36,7 @@ nav ul li a img {
     height: auto;
 }
 form {
-    max-width: 500px;
+    max-width: 700px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -87,6 +55,9 @@ input[type="date"] {
     font-size: 16px;
 }
 button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #333;
     color: white;
     padding: 10px 20px;
@@ -96,5 +67,5 @@ button {
     cursor: pointer;
 }
 @media (min-width: 768px) {
-    /* Add styles for larger screens here */
+
 }
