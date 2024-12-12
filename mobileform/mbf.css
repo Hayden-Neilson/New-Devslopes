@@ -1,0 +1,140 @@
+:root {
+  --font-main: #9f9f9f;
+  --font-light: #fff;
+  --font-dark: #000;
+  --nav-bar: #23238e;
+  --nav-bar-links: #ff00ff;
+  --header: #00049c;
+  --input-background: #cdcdcd;
+  --input-border: #9f9f9f;
+  --input-symbol: var(--font-main);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+form {
+  gap: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-nav-1 {
+  background-color: var(--nav-bar);
+  width: 100%;
+  max-width: 560px;
+  margin: auto;
+  line-height: 2.2;
+}
+
+.navbar-1 {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.nav-link-1 {
+  text-decoration: none;
+  color: var(--nav-bar-links);
+  padding: 0px 10px;
+  text-align: center;
+}
+
+.header-1 {
+  display: flex;
+  gap: 20px;
+  background-color: var(--header);
+  color: var(--font-light);
+  line-height: 2.5;
+  width: 100%;
+  max-width: 560px;
+  margin: auto;
+  padding: 0px 25px;
+}
+
+.header-1 h2 {
+  flex-grow: 1;
+}
+
+.btn-1 {
+  background-color: transparent;
+  border: transparent;
+  font-size: 1.75rem;
+  color: var(--font-light);
+}
+
+.form-1 {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-1 div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.form-1 input {
+  height: 4.1rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  padding-left: 20px;
+  border: 2px solid var(--input-border);
+}
+
+.form-1 select {
+  height: 4.1rem;
+  font-size: 1.5rem;
+  width: 7.5rem;
+  border: 2px solid var(--input-border);
+  border-radius: 5px;
+  padding-left: 15px;
+  color: var(--font-main);
+}
+
+.form-1 label {
+  margin-left: -30px;
+  position: relative;
+  left: -10px;
+  font-size: 25px;
+  color: var(--font-main);
+}
+
+.name-1 input,
+.address-1 input,
+.birthday-1 input {
+  border: 1px transparent;
+  border-bottom: 1px solid var(--font-dark);
+  background-color: var(--input-background);
+  color: var(--font-dark);
+  width: 100%;
+}
+
+.city-1 input,
+.email-1 input {
+  width: 100%;
+}
+
+.phone-number-1 input {
+  width: 200px;
+}
+
+.state-zip-1 select,
+.state-zip-1 input {
+  width: 160px;
+  border: 1px transparent;
+  border-bottom: 1px solid var(--font-dark);
+  background-color: var(--input-background);
+  color: var(--font-main);
+}
+
+.birthday-1 input {
+  width: 315px;
+}
